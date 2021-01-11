@@ -16,6 +16,9 @@ class CardGame extends StatefulWidget {
 }
 
 class _CardGameState extends State<CardGame> {
+  
+  // logo abaixo, eu coloquei as listas no próprio código pois foi um dos meus primeiros projetos - hoje, reconheço a pouca otimização e pouca organização
+  
   List<card.Card> machineCards = [
     card.Card(0, 1, 'nós', Color(0xFF6C5B7B), true),
     card.Card(1, 1, 'nós', Color(0xFFC0C684), true),
